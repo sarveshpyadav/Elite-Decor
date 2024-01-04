@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Favorites from "../components/Favorites";
-import Trending from "../components/trending";
+import Trending from "../components/Trending";
 import Banner from "../components/Banner";
 
 function Home() {
