@@ -1,0 +1,44 @@
+.trending__container {
+    margin: 0 auto;
+    max-width: 75rem;
+    padding: 0 1.2rem;
+  }
+  .trending__content{
+    padding: 5rem 0rem 10rem;
+  }
+  .trending__other  h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  .trending__grid {
+    grid-gap: 2rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    @media (max-width: 800px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media (max-width: 500px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 350px) {
+      grid-template-columns: 1fr;
+    }
+  }
+  .trending__home {
+    cursor: pointer;
+    outline: 2px solid rgba(0, 0, 0, 0.205);
+    outline-offset: -2px;
+    transition: all 0.15s ease-in;
+  }
+  .trending__home:hover{
+      outline: 2px solid rgb(32, 32, 32)
+  }
+  .trending__img > img {
+    width: 100%;
+  }
+  .trending__details {
+    color: black;
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
